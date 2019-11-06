@@ -1,5 +1,7 @@
 <template>
-  <router-view />
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <style lang="stylus">
@@ -10,5 +12,8 @@
   text-align center
   color #2c3e50
   margin-top 60px
+  min-width 1000px
+  display flex
+  justify-content center
 }
 </style>
